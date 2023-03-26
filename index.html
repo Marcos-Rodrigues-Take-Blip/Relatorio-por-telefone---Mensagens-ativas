@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>A mensagem chegou?</title>  
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="https://cdn.rawgit.com/rainabba/jquery-table2excel/1.1.0/dist/jquery.table2excel.min.js"></script>
+        
+        <link rel="stylesheet" href="estyle.css">  
+        
+       
+    </head>
+    <body class="gradiente">
+        
+        <header>
+        <h1>Cheque se a mensagem ativa foi enviada</h1>
+        <h2>Pelo número do cliente 📲</h2>
+        </header>
+        <div id="loader-container" class="loader-container hidden">
+            <div class="loader"></div>
+          </div>
+        <section>   
+                    
+            <div id="txt">
+                <p>Para inicar cole abaixo o <b>token</b> do seu Roteador e o <b>número de telefone</b> do cliente</p>          
+                    <label for="token"></label>
+                    <input type="text" placeholder="Digite seu token aqui" id="token" name="token"><p>
+                    <input type="text" placeholder="Digite o número de telefone. Ex 55DDD+Numero" id="telefone" name="telefone"><p></p>
+                    <input type="button" class="btn"  id="começar" name="começar" value="Iniciar" onclick="começar()">
+              </div>
+               <div id="dd"></div>
+              
+            </section>
+            <footer id="footer">
+                <p>&copy; Marcos Rodrigues</p>
+                <p>
+                   
+                  <a href="https://www.linkedin.com/in/marcos-rodrigues-a1878b1a7/">LinkedIn</a> | 
+                  <a href="https://github.com/Marcos-Rodrigues-JS">GitHub</a>
+                </p>
+              </footer>
+        
+        <script src="script.js"></script>  
+        <script src="outraForma.js"></script>              
+    </body>
+</html>
