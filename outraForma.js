@@ -194,8 +194,8 @@ if (conteudo.components) {
           
         }    
         
-           var alk = threads[total-1].metadata["#uniqueId"]
-           var as = JSON.stringify(alk)           
+           //var alk = threads[total-1].metadata["#uniqueId"]
+           //var as = JSON.stringify(alk)           
            //var as = messageId.replace('\\', '').replace('"', '')
            var messageId = threads[total-1].id
         var storageDate = threads[total-1].date
